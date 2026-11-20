@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>小丸子岛 · 功能宣传图</title>
+    <style>
+      :root {
+        --bg: #f6efe6;
+        --ink: #241710;
+        --muted: #7a6658;
+        --line: rgba(48, 30, 20, 0.12);
+      }
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: 'Segoe UI', 'PingFang SC', sans-serif;
+        color: var(--ink);
+        background:
+          radial-gradient(rgba(70, 45, 30, 0.07) 1px, transparent 1.1px) 0 0 / 18px 18px,
+          var(--bg);
+        padding: 2rem clamp(1rem, 4vw, 3rem) 3rem;
+      }
+      h1 {
+        margin: 0 0 0.4rem;
+        font-size: 1.8rem;
+      }
+      p {
+        margin: 0 0 1.5rem;
+        color: var(--muted);
+      }
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+        gap: 1rem;
+      }
+      figure {
+        margin: 0;
+        background: #fffaf3;
+        border: 1px solid var(--line);
+        border-radius: 16px;
+        overflow: hidden;
+        box-shadow: 0 10px 24px rgba(36, 23, 16, 0.08);
+      }
+      img {
+        display: block;
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        object-fit: cover;
+      }
+      figcaption {
+        padding: 0.75rem 0.9rem 0.95rem;
+        font-weight: 700;
+      }
+      small {
+        display: block;
+        margin-top: 0.2rem;
+        color: var(--muted);
+        font-weight: 500;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>小丸子岛 · 功能宣传图</h1>
+    <p>共 8 张，16:9。文件在本目录。</p>
+    <div class="grid">
+      <figure>
+        <img src="./promo-01-capsule.jpg" alt="灵动岛胶囊" />
+        <figcaption>灵动岛胶囊<small>promo-01-capsule.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-02-expand.jpg" alt="展开面板" />
+        <figcaption>展开面板<small>promo-02-expand.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-03-screenshot.jpg" alt="截图自动入库" />
+        <figcaption>截图自动入库<small>promo-03-screenshot.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-04-otp.jpg" alt="邮箱验证码" />
+        <figcaption>邮箱验证码<small>promo-04-otp.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-05-media.jpg" alt="听书与音乐" />
+        <figcaption>听书与音乐<small>promo-05-media.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-06-folders.jpg" alt="文件夹分组" />
+        <figcaption>文件夹分组<small>promo-06-folders.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-07-modules.jpg" alt="模块可编排" />
+        <figcaption>模块可编排<small>promo-07-modules.jpg</small></figcaption>
+      </figure>
+      <figure>
+        <img src="./promo-08-skins.jpg" alt="多皮肤" />
+        <figcaption>多皮肤<small>promo-08-skins.jpg</small></figcaption>
+      </figure>
+    </div>
+  </body>
+</html>

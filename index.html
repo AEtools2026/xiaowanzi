@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>小丸子岛 · Windows 桌面灵动岛</title>
+    <meta
+      name="description"
+      content="小丸子岛 2.0.5：贴在屏幕边缘的 Windows 桌面灵动岛。收起是胶囊，展开是奶油纸手帐面板，日程、待办、音乐歌词、截图、验证码与 AI 额度都在一处。"
+    />
+    <link rel="icon" href="./assets/icon.png" type="image/png" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="paper-grain" aria-hidden="true"></div>
+
+    <header class="nav">
+      <a class="logo" href="#top" aria-label="小丸子岛首页">
+        <img src="./assets/icon.png" width="38" height="38" alt="" />
+        <span>小丸子岛</span>
+      </a>
+      <nav aria-label="主导航">
+        <a href="#top">首页</a>
+        <a href="#island">灵动岛</a>
+        <a href="#features">功能</a>
+        <a href="#search">搜索</a>
+        <a href="#skins">皮肤</a>
+        <a href="#details">细节</a>
+        <a href="#download">下载</a>
+      </nav>
+      <a class="nav-cta" href="#download">下载 v2.0.5</a>
+    </header>
+
+    <main>
+      <section class="hero" id="top">
+        <div class="hero-copy reveal">
+          <div class="tag"><span class="tag-dot"></span>Windows 桌面灵动岛 · v2.0.5</div>
+          <h1>把桌面，<br /><span class="highlight">收成一本小手帐</span></h1>
+          <p class="lede">
+            小丸子岛贴在屏幕边缘：收起是一颗安静胶囊，展开是一张奶油纸面板。日程、待办、音乐歌词、截图、验证码和 AI 额度，都在抬手之间。
+          </p>
+          <div class="actions">
+            <a class="btn primary" href="#download">立即下载<span class="arrow">↗</span></a>
+            <a class="btn ghost" href="#features">看看岛上有什么</a>
+          </div>
+          <ul class="hero-facts">
+            <li><strong>8</strong><span>功能页</span></li>
+            <li><strong>9</strong><span>胶囊模块</span></li>
+            <li><strong>6</strong><span>手帐皮肤</span></li>
+            <li><strong>Alt+Space</strong><span>全局搜索</span></li>
+          </ul>
+        </div>
+
+        <div class="hero-stage reveal" aria-label="小丸子岛真实界面截图">
+          <div class="tape tape-top" aria-hidden="true"></div>
+          <div class="tape tape-side" aria-hidden="true"></div>
+          <div class="stage-orbit" aria-hidden="true"></div>
+          <figure class="stage-card stage-card-back">
+            <img src="./assets/ui-music.png" alt="音乐页：封面、进度与同步歌词" />
+          </figure>
+          <figure class="stage-card stage-card-main">
+            <img src="./assets/ui-home.png" alt="今日小本：月历、天气、时钟与待办" />
+          </figure>
+          <figure class="stage-pill">
+            <img src="./assets/ui-pill.png" alt="收起状态的胶囊，显示时间、电量与快捷入口" />
+          </figure>
+          <span class="stage-caption">真实界面截图</span>
+        </div>
+      </section>
+
+      <section class="strip" aria-label="产品亮点">
+        <div><span>01</span>顶 / 左 / 右边缘吸附</div>
+        <div><span>02</span>系统媒体歌词同步</div>
+        <div><span>03</span>截图与验证码自动上岛</div>
+        <div><span>04</span>多显示器与缩放适配</div>
+      </section>
+
+      <section class="section" id="island">
+        <header class="section-head reveal">
+          <span class="kicker">THE ISLAND · 收起与展开</span>
+          <h2>一颗岛，两种刚刚好</h2>
+          <p>不占地方的时候安静待着，需要的时候一次展开。所有模块都能在设置里开关、排序。</p>
+        </header>
+
+        <div class="states-grid">
+          <article class="state-card reveal">
+            <div class="state-visual visual-pill">
+              <img src="./assets/ui-pill.png" alt="胶囊状态截图" />
+            </div>
+            <div class="state-body">
+              <span class="state-index">01 / 收起</span>
+              <h3>安静胶囊，信息刚刚好</h3>
+              <p>贴在屏幕顶部或左右边缘，显示时钟、电量、AI 额度、正在播放的歌词，以及截图、邮箱、文件夹入口。无操作 45 秒后还会切换待机表情。</p>
+              <div class="chips">
+                <span>可爱表情</span><span>AI 额度</span><span>电量</span><span>时钟</span><span>岛上歌词</span><span>专注</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="state-card reveal">
+            <div class="state-visual visual-board">
+              <img src="./assets/ui-home.png" alt="今日小本面板截图" />
+            </div>
+            <div class="state-body">
+              <span class="state-index">02 / 展开</span>
+              <h3>奶油纸面板，翻页就到</h3>
+              <p>点击或悬停展开八页功能板，左右箭头翻页，页码圆点定位。面板可以钉住不收起，也可以随时从齿轮进入设置。</p>
+              <div class="chips">
+                <span>今日小本</span><span>音乐</span><span>专注饮水</span><span>置物架</span><span>待办</span><span>邮箱</span><span>AI 额度</span><span>日程</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section-tint" id="features">
+        <header class="section-head reveal">
+          <span class="kicker">ON THE ISLAND · 功能</span>
+          <h2>岛上八页，各管一件事</h2>
+          <p>不是又一个常驻工具栏，而是把每天会顺手点开的小东西，收进同一张面板。</p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature-card reveal"><span class="feature-mark mark-coral">日</span><h3>今日小本</h3><p>月历、天气、时钟与最近待办聚在一页，随手添加待办，一眼知道今天要做什么。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-mint">音</span><h3>音乐</h3><p>读取系统正在播放的媒体会话，显示封面、歌名、进度与同步歌词；支持网易云、QQ 音乐、喜马拉雅等。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-gold">专</span><h3>专注饮水</h3><p>番茄钟与喝水记录放在同一页：专注 / 休息计时、每日目标、提醒间隔与喝水进度。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-blue">物</span><h3>置物架</h3><p>剪贴板文字历史、自动入库的截图、应用快捷贴纸，以及按类型分组的文件夹浏览。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-rose">待</span><h3>待办</h3><p>带时间与重复规则的清单：一次、工作日或每天，完成后勾选，日程到点会提醒。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-violet">邮</span><h3>邮箱</h3><p>绑定 IMAP 邮箱后识别邮件中的验证码，直接弹在岛上，点一下就能复制。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-teal">额</span><h3>AI 额度</h3><p>集中查看 WorkBuddy、DeepSeek、Codex、Claude、Kimi 等 9 家账号的积分、余额或用量。</p></article>
+          <article class="feature-card reveal"><span class="feature-mark mark-amber">历</span><h3>日程</h3><p>在月历上按日添加日程、提示、闹钟和备注，到点弹出提醒，重复日程也能安排。</p></article>
+        </div>
+      </section>
+
+      <section class="section search-section" id="search">
+        <header class="section-head reveal">
+          <span class="kicker">QUICK SEARCH · 快捷搜索</span>
+          <h2>Alt+Space，随手一搜</h2>
+          <p>任何界面按下快捷键，输入内容回车，用系统默认浏览器打开搜索结果；Esc 随时收起。</p>
+        </header>
+
+        <div class="search-grid">
+          <div class="search-visual reveal">
+            <span class="search-key">Alt + Space</span>
+            <img src="./assets/ui-search.png" alt="快捷搜索框：输入内容，回车用默认浏览器搜索" />
+            <span class="search-visual-note">输入即搜 · 不打断当前窗口</span>
+          </div>
+          <div class="search-content reveal">
+            <figure class="settings-figure">
+              <img src="./assets/ui-search-settings.png" alt="设置里的搜索功能页面：快捷键、立即试用与默认引擎" />
+              <figcaption>设置 → 搜索功能</figcaption>
+            </figure>
+            <ul class="search-points">
+              <li><strong>默认 Alt+Space</strong>：按键可改，也能一键恢复默认。</li>
+              <li><strong>回车或点搜索</strong>：用系统默认浏览器打开，支持 Bing / Google / 百度。</li>
+              <li><strong>随时开关</strong>：也能点「打开搜索框」立即试用，不占用快捷键。</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section skins-section" id="skins">
+        <header class="section-head reveal">
+          <span class="kicker">SKINS · 皮肤</span>
+          <h2>六种皮肤，随手换装</h2>
+          <p>在设置里点一下皮肤卡片即可预览并应用，胶囊与首页面板会一起换上对应配色。</p>
+        </header>
+
+        <div class="skins-grid">
+          <figure class="skins-shot reveal">
+            <img src="./assets/ui-skins.png" alt="皮肤设置界面：六款皮肤卡片与灵动岛、首页预览" />
+            <figcaption>设置 → 常规 → 皮肤</figcaption>
+          </figure>
+          <div class="skin-list reveal">
+            <div class="skin-item"><span class="swatch swatch-cream"></span><div><strong>手帐奶油纸</strong><small>默认 · 温暖奶油色</small></div></div>
+            <div class="skin-item"><span class="swatch swatch-peach"></span><div><strong>蜜桃贴纸</strong><small>柔软蜜桃粉</small></div></div>
+            <div class="skin-item"><span class="swatch swatch-rose"></span><div><strong>鲜花玫瑰</strong><small>淡雅花卉底纹</small></div></div>
+            <div class="skin-item"><span class="swatch swatch-mint"></span><div><strong>薄荷胶带</strong><small>清爽薄荷绿</small></div></div>
+            <div class="skin-item"><span class="swatch swatch-night"></span><div><strong>夜色便签</strong><small>深色暗夜配色</small></div></div>
+            <div class="skin-item"><span class="swatch swatch-newyear"></span><div><strong>羊年春节限定</strong><small>节日限定 · 红金渐变</small></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="details">
+        <header class="section-head reveal">
+          <span class="kicker">LITTLE DETAILS · 细节</span>
+          <h2>好看，也好用</h2>
+          <p>从皮肤到快捷键，每一处都能按自己的习惯摆。</p>
+        </header>
+
+        <div class="detail-grid">
+          <article class="detail-card reveal">
+            <div class="detail-no">01</div>
+            <h3>更新与云消息</h3>
+            <p>设置里可以查看第三方声明、检查更新；云消息和版本更新也会在岛上弹出提示。</p>
+          </article>
+          <article class="detail-card reveal">
+            <div class="detail-no">02</div>
+            <h3>模块自己排</h3>
+            <p>胶囊上的状态组件、面板里的功能页，都能开关和拖动排序；常用的软件、文件夹、网页还能做成快捷贴纸上岛。</p>
+          </article>
+          <article class="detail-card reveal">
+            <div class="detail-no">03</div>
+            <h3>安静地待在边缘</h3>
+            <p>自动避让常用浏览器与全屏窗口，支持极简形态、多显示器、80%–150% 缩放，以及单击或悬停展开。</p>
+          </article>
+          <article class="detail-card reveal">
+            <div class="detail-no">04</div>
+            <h3>提醒也会上岛</h3>
+            <p>验证码、新邮件、截图入库、日程闹钟、该喝水了、专注结束与版本更新，都会在岛上短提示。</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section download-section" id="download">
+        <div class="download-card reveal">
+          <div class="download-copy">
+            <span class="kicker">DOWNLOAD · 下载</span>
+            <h2>让小岛上桌</h2>
+            <p>Windows 10 / 11 · x64 · 当前版本 <strong>2.0.5</strong></p>
+            <div class="actions">
+              <a class="btn primary big" href="./downloads/小丸子岛-win-x64.exe" download>下载安装版</a>
+              <a class="btn ghost big" href="./downloads/小丸子岛-portable.exe" download>绿色免安装版</a>
+            </div>
+          </div>
+          <ul class="download-notes">
+            <li><span>✓</span>安装版创建桌面与开始菜单快捷方式</li>
+            <li><span>✓</span>绿色版解压即用，可放 U 盘随身</li>
+            <li><span>✓</span>启动后贴在屏幕边缘，托盘可随时唤出</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="section contact-section" id="contact">
+        <header class="section-head reveal">
+          <span class="kicker">SAY HELLO · 联系</span>
+          <h2>有问题，或者想说点什么</h2>
+          <p>使用问题、功能建议或合作，都欢迎来信。</p>
+        </header>
+        <div class="contact-grid">
+          <div class="contact-card reveal">
+            <span class="contact-label">邮箱</span>
+            <a class="mail" href="mailto:1712877184@qq.com?subject=%E5%B0%8F%E4%B8%B8%E5%AD%90%E5%B2%9B%20%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88">1712877184@qq.com</a>
+            <p>主题写「问题反馈」或「功能建议」都好。</p>
+            <a class="btn ghost" href="mailto:1712877184@qq.com?subject=%E5%B0%8F%E4%B8%B8%E5%AD%90%E5%B2%9B%20%E9%97%AE%E9%A2%98%E5%8F%8D%E9%A6%88">发邮件</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <img src="./assets/icon.png" width="24" height="24" alt="" />
+      <span>© 小丸子岛 · Windows 桌面灵动岛 · v2.0.5</span>
+    </footer>
+
+    <script>
+      const links = document.querySelectorAll('a[href^="#"]')
+      links.forEach((a) => {
+        a.addEventListener('click', (e) => {
+          const id = a.getAttribute('href')
+          const el = id && document.querySelector(id)
+          if (!el) return
+          e.preventDefault()
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+        })
+      })
+
+      const observer = new IntersectionObserver(
+        (entries) => {
+          entries.forEach((entry) => {
+            if (entry.isIntersecting) {
+              entry.target.classList.add('is-visible')
+              observer.unobserve(entry.target)
+            }
+          })
+        },
+        { threshold: 0.12 }
+      )
+      document.querySelectorAll('.reveal').forEach((el) => observer.observe(el))
+
+      const navLinks = document.querySelectorAll('.nav nav a')
+      const sections = [...navLinks]
+        .map((a) => document.querySelector(a.getAttribute('href')))
+        .filter(Boolean)
+      const onScroll = () => {
+        const y = window.scrollY + 140
+        let active = '#top'
+        sections.forEach((section) => {
+          if (section.offsetTop <= y) active = '#' + section.id
+        })
+        navLinks.forEach((a) => a.classList.toggle('active', a.getAttribute('href') === active))
+      }
+      window.addEventListener('scroll', onScroll, { passive: true })
+      onScroll()
+    </script>
+  </body>
+</html>
